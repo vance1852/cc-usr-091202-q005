@@ -1,7 +1,11 @@
 {
   "domain": "公租房维修",
+  "teams": [
+    {"teamId": "T-ELEVATOR", "skills": ["电梯", "电气"]},
+    {"teamId": "T-PLUMBING", "skills": ["给排水", "防水"]}
+  ],
   "records": [
-    {"window": "综合受理一号窗", "service": "社保转移", "date": "2026-10-08", "capacity": 18},
-    {"window": "综合受理二号窗", "service": "居住证签注", "date": "2026-10-08", "capacity": 12}
+    {"reportId": "M-301", "building": "惠民苑-2", "category": "电梯", "safetyImpact": "high", "reportedAt": "2026-10-08T21:40:00+08:00"},
+    {"reportId": "M-302", "building": "惠民苑-5", "category": "漏水", "safetyImpact": "medium", "reportedAt": "2026-10-08T22:05:00+08:00"}
   ]
 }
